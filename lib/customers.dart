@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+
+import 'switch screen.dart';
 //import 'package:flutter/src/painting/border_radius.dart';
 
 class customers extends StatelessWidget {
@@ -104,9 +106,9 @@ class customers extends StatelessWidget {
               ),
               Container(
                 height: 160,
-                width: 360,
+
                 decoration: BoxDecoration(
-                  color:Colors.blueAccent,
+                  color:Colors.greenAccent,
                   borderRadius: BorderRadius.circular(10),
                   border: Border.all(
                     width: 0.5,
@@ -125,67 +127,60 @@ class customers extends StatelessWidget {
 
                   children: [
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Padding(
-                          padding: const EdgeInsets.all(15.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Column(
                             children: [
-                              Text("Name", style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black),),
+                              Icon(Icons.blur_circular)
                             ],
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(15.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Column(
                             children: [
-                              Text("Name", style: TextStyle(fontSize: 16,fontWeight: FontWeight.w700,color: Colors.black),),
+                              Text("Name"),
+                              Text("abc@gmail.com"),
+                              Text("something else")
                             ],
                           ),
-                        )
+                        ),
+
                       ],
 
                     ),
                     Divider(
+
                       thickness: 2,
-                      height: 60,
+                      height: 40,
                       indent: 10,
                       endIndent: 10,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            children: [
-                              Icon(Icons.call, color: Colors.white,),
-                            ],
-                          ),
+                        Column(
+                          children: [
+                            Icon(Icons.call, color: Color(0xff716d6c),),
+                          ],
                         ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            children: [
-                              Icon(Icons.mail_outline, color: Colors.white,),
-                            ],
-                          ),
+                        Column(
+                          children: [
+                            Icon(Icons.mail_outline, color: Color(0xff716d6c),),
+                          ],
                         ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            children: [
-                              Icon(Icons.edit, color: Colors.white,),
-                            ],
-                          ),
+                        Column(
+                          children: [
+                            Icon(Icons.edit, color: Color(0xff716d6c),),
+                          ],
                         ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            children: [
-                              Icon(Icons.delete, color: Color(0xfffe0100),),
-                            ],
-                          ),
+                        SwitchScreen(),
+                        Column(
+                          children: [
+                            Icon(Icons.delete, color: Color(0xfffe0100),),
+                          ],
                         )
                       ],
                     )

@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/scroll_physics.dart';
 import 'package:flutter/widgets.dart';
 import 'package:perfex/customers.dart';
 import 'package:perfex/leads.dart';
+import 'package:perfex/sales.dart';
 import 'package:perfex/support.dart';
 import 'tasks.dart';
 
@@ -26,6 +27,37 @@ class _pg1State extends State<pg1> {
       initialIndex: 1,
       length: 5,
       child: Scaffold(
+        drawer: Drawer(
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              UserAccountsDrawerHeader(
+                  accountName: Text("Welcom Divesh Ahuja"),
+                  accountEmail: Text("mtayyabpro@gmail.com"),
+                currentAccountPicture: CircleAvatar(
+                  child: Text("p"),
+                ),
+              ),
+              ListTile(
+                leading: Icon(Icons.shopping_bag),
+                title: Text("Sales"),
+                onTap: (){
+                  Navigator.of(context).push(MaterialPageRoute(
+                     builder: (context) => sales(),
+                  ));
+                },
+                enabled: true,
+              ),
+              ListTile(
+                leading: Icon(Icons.settings),
+                title: Text("Settings"),
+                enabled: true,
+                //selected: true,
+              )
+
+            ],
+          ),
+        ),
           backgroundColor: Color(0xffEFE6F7),
           appBar: AppBar(
             backgroundColor: Color(0xff626f80),
@@ -38,12 +70,7 @@ class _pg1State extends State<pg1> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        Icon(Icons.list_outlined),
-                      ],
-                    ),
+
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [

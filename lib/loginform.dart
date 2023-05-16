@@ -59,7 +59,7 @@ class loginform extends StatelessWidget {
                     onTap: (){
                       Navigator.push(context, MaterialPageRoute(builder: (context) => pg1()));
                     },
-                    child: Text("Sign In", style: TextStyle(color: Colors.white, ),))),
+                    child: Text("Sign In", style: TextStyle(color: Color(0xffb2bdcb), ),))),
           ],
         ),
       ),

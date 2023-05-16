@@ -24,7 +24,7 @@ class _pg1State extends State<pg1> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return DefaultTabController(
-      initialIndex: 1,
+      initialIndex: 0,
       length: 5,
       child: Scaffold(
         drawer: Drawer(

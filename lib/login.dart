@@ -20,8 +20,8 @@ class login extends StatelessWidget {
                 child: Column(
 
                   children: [
-                    Text("Perfex Master", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700,color: Colors.white),),
-                    Text("Good afternoon", ),
+                    Text("Perfex Master", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700,color: Colors.white),),
+                    Text("Good afternoon", style: TextStyle(color: Color(0xffb2bdcb),), ),
                   ],
                 ),
               ),

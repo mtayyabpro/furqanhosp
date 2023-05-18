@@ -140,7 +140,15 @@ class _pg1State extends State<pg1> {
                                   width: 330,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                    gradient: LinearGradient(
+                                      begin: Alignment.centerLeft,
+                                      end: Alignment.centerRight,
+                                      colors: [
+                                        Color(0xff6f7c8d),
+                                        Color(0xff838383),
+                                      ]
+                                    ),
+
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -202,7 +210,14 @@ class _pg1State extends State<pg1> {
                                   width: 330,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                      gradient: LinearGradient(
+                                          begin: Alignment.centerLeft,
+                                          end: Alignment.centerRight,
+                                          colors: [
+                                            Color(0xff6f7c8d),
+                                            Color(0xff838383),
+                                          ]
+                                      ),
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -265,7 +280,14 @@ class _pg1State extends State<pg1> {
                                   width: 330,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                      gradient: LinearGradient(
+                                          begin: Alignment.centerLeft,
+                                          end: Alignment.centerRight,
+                                          colors: [
+                                            Color(0xff6f7c8d),
+                                            Color(0xff838383),
+                                          ]
+                                      ),
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -329,7 +351,14 @@ class _pg1State extends State<pg1> {
                                   width: 330,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                      gradient: LinearGradient(
+                                          begin: Alignment.centerLeft,
+                                          end: Alignment.centerRight,
+                                          colors: [
+                                            Color(0xff6f7c8d),
+                                            Color(0xff838383),
+                                          ]
+                                      ),
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -392,7 +421,14 @@ class _pg1State extends State<pg1> {
                                   width: 160,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                      gradient: LinearGradient(
+                                          begin: Alignment.centerLeft,
+                                          end: Alignment.centerRight,
+                                          colors: [
+                                            Color(0xff6f7c8d),
+                                            Color(0xff838383),
+                                          ]
+                                      ),
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -435,7 +471,14 @@ class _pg1State extends State<pg1> {
                               width: 160,
                               // color: Colors.white,
                               decoration: BoxDecoration(
-                                  color: Color(0xff707c8c),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.centerLeft,
+                                      end: Alignment.centerRight,
+                                      colors: [
+                                        Color(0xff6f7c8d),
+                                        Color(0xff838383),
+                                      ]
+                                  ),
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(
                                     width: 0.5,
@@ -483,7 +526,14 @@ class _pg1State extends State<pg1> {
                                   width: 160,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                      gradient: LinearGradient(
+                                          begin: Alignment.centerLeft,
+                                          end: Alignment.centerRight,
+                                          colors: [
+                                            Color(0xff6f7c8d),
+                                            Color(0xff838383),
+                                          ]
+                                      ),
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -526,7 +576,14 @@ class _pg1State extends State<pg1> {
                               width: 160,
                               // color: Colors.white,
                               decoration: BoxDecoration(
-                                  color: Color(0xff707c8c),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.centerLeft,
+                                      end: Alignment.centerRight,
+                                      colors: [
+                                        Color(0xff6f7c8d),
+                                        Color(0xff838383),
+                                      ]
+                                  ),
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(
                                     width: 0.5,
@@ -574,7 +631,14 @@ class _pg1State extends State<pg1> {
                                   width: 160,
                                   // color: Colors.white,
                                   decoration: BoxDecoration(
-                                      color:Color(0xff6f7c8d),
+                                      gradient: LinearGradient(
+                                          begin: Alignment.centerLeft,
+                                          end: Alignment.centerRight,
+                                          colors: [
+                                            Color(0xff6f7c8d),
+                                            Color(0xff838383),
+                                          ]
+                                      ),
                                       borderRadius: BorderRadius.circular(10),
                                       border: Border.all(
                                         width: 0.5,
@@ -617,7 +681,14 @@ class _pg1State extends State<pg1> {
                               width: 160,
                               // color: Colors.white,
                               decoration: BoxDecoration(
-                                  color: Color(0xff707c8c),
+                                  gradient: LinearGradient(
+                                      begin: Alignment.centerLeft,
+                                      end: Alignment.centerRight,
+                                      colors: [
+                                        Color(0xff6f7c8d),
+                                        Color(0xff838383),
+                                      ]
+                                  ),
                                   borderRadius: BorderRadius.circular(10),
                                   border: Border.all(
                                     width: 0.5,

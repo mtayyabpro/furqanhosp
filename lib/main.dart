@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:perfex/login.dart';
 import 'package:perfex/pg1.dart';
+import 'package:flutter/services.dart';
 
 
 void main() {
-  //SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    //  statusBarColor: Colors.transparent
+
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([
+  //   DeviceOrientation.portraitUp,
+  // DeviceOrientation.portraitDown,
+  //   DeviceOrientation.landscapeLeft,
+  //   DeviceOrientation.landscapeRight
+  // ]);
 
   runApp(const MyApp());
 }
